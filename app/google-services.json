@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "606606421199",
+    "firebase_url": "https://ondemandservice-app.firebaseio.com",
+    "project_id": "ondemandservice-app",
+    "storage_bucket": "ondemandservice-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606606421199:android:cbbe5f037db4631f",
+        "android_client_info": {
+          "package_name": "yazdaniscodelab.ondemandserviceapp_p1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606606421199-vb7jnfmbq6spkksns64r27044cbkh1se.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBysEp8V0RWy_irkhOTa_AMwZcYTCMrjBo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
