@@ -1,9 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context="yazdaniscodelab.ondemandserviceapp_p1.Registration_and_SignInActivity.RegistrationActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar_reg"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:hint="Name:"
+                    android:textColor="@android:color/black"
+                    android:background="@drawable/edt_design"
+                    android:padding="10dp"
+                    android:id="@+id/name_reg"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:hint="Email:"
+                    android:textColor="@android:color/black"
+                    android:background="@drawable/edt_design"
+                    android:padding="10dp"
+                    android:id="@+id/email_reg"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:hint="Password:"
+                    android:textColor="@android:color/black"
+                    android:inputType="textPassword"
+                    android:background="@drawable/edt_design"
+                    android:padding="10dp"
+                    android:id="@+id/password_reg"
+                    />
+                <EditText
+                    android:id="@+id/phone_reg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/edt_design"
+                    android:hint="Phone:"
+                    android:inputType="phone"
+                    android:padding="10dp"
+                    android:textColor="@android:color/black" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:id="@+id/register_btn"
+                    android:background="@drawable/register_btn_design"
+                    android:padding="10dp"
+                    android:textColor="@android:color/white"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="AGREE AND CREATE ACCOUNT"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/sign_txt"
+                    android:text="Have an account? Sign In"
+                    />
+
+            </LinearLayout>
+
+
+        </ScrollView>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

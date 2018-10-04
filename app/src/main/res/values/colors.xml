@@ -8,4 +8,11 @@
 
     <color name="text_color">#0fef78</color>
 
+    <color name="job">#E55115B1</color>
+
+    <color name="services">#F50785F4</color>
+
+    <color name="account">#F5A2A713</color>
+
+
 </resources>
